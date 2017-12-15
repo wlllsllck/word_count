@@ -1,0 +1,7 @@
+file = input('Enter your file name: ')
+f = open(file,'r')
+message = f.read()
+word_count = len(message.split())
+#print(message)
+print(word_count)
+f.close()
